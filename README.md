@@ -12,4 +12,4 @@ The question is similar to finding the number of diagonals of a n-sided polygon.
   ```
     nC2 - n = n(n-1)/2 - 2n/2 = n(n-3)/2   
   ```
-  
+Note that when **n** is less than 4, there is no possible way to join 2 non-adjacent vertices, therefore the output should be **0**
